@@ -1,0 +1,218 @@
+#nav_bar
+{
+    /* max-width: 100%; */
+    color: rgb(173, 173, 173);
+    background-color: rgb(47, 47, 47);
+    opacity: 0.8;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+    /* border: 0; */
+    /* background-color: transparent; */
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: row;
+    /* max-width: 100%; */
+    align-items: center;
+    padding: 0px;
+}
+
+.navleft
+{
+    font-size: 20px;
+    /* font-family: fantasy; */
+    flex: auto !important;
+    display: inline;
+}
+
+.in_line
+{
+    /* flex: auto; */
+    display: inline;
+    padding: 14px;
+}
+li:hover
+{
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* background-color: rgb(83, 83, 83) !important; */
+    color: rgb(255, 255, 255) !important;
+}
+/* .active
+{
+    background-color: black;
+    color: white;
+} */
+h1
+{
+    letter-spacing: 4px;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-image: url('https://wallpaperaccess.com/full/1201167.jpg'); */
+    background-image: url('https://drive.google.com/uc?export=view&id=1nvCXhzj3qRa2N0huyP9iqIsfZPpKFjSY');
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+    /* https://drive.google.com/file/d/1nvCXhzj3qRa2N0huyP9iqIsfZPpKFjSY/view?usp=sharing */
+    /* https://drive.google.com/file/d/1nvCXhzj3qRa2N0huyP9iqIsfZPpKFjSY/view?usp=sharing */
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    background-attachment: fixed;
+    /* padding: 0;
+    margin: 0; */
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+table,th,td
+{
+    border:1px solid rgb(255, 255, 255);
+}
+
+
+
+#dt
+{
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 165px;
+    text-align: center;
+    background-color: rgba(20, 38, 80, 0.192);
+    color: rgb(255, 255, 255);
+    /* rgb(0, 238, 255); */
+    border: 1px solid rgb(0, 238, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* opacity: 0.7; */
+    /* font-weight: bold; */
+}
+
+#dt:hover
+{
+    background-color: rgba(255, 255, 255, 0.171);
+    /* color: black; */
+    border: 1px solid rgb(255, 21, 0);
+}
+
+.profile_image
+{
+    /* display: flex; */
+    /* float: center; */
+    /* justify-content: center; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.hcenter-block
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hcenter-text
+{
+    text-align: center;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    justify-content: center; */
+    /* float: center; */
+}
+
+.hcenter-flex
+{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+/* #dt
+{
+    display: flex;
+    float: right;
+    text-align: center;
+    border-radius: 4%;
+    background-color: rgba(20, 38, 80, 0.192);
+    ____opacity: 0.7;
+    color: rgb(255, 255, 255);
+    _____width: 300px;
+    border: 1px solid rgb(0, 238, 255);
+    _____border-radius: 3mm;
+    padding: 10px;
+    margin: 10px;
+    _____font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+} */
+
+.education
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.education .college
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.education .college table
+{
+    max-width: auto !important;
+    border-collapse: collapse;
+    margin: 10px;
+    text-align: center;
+}
+
+.education .college table td
+{
+    padding: 5px 10px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 910px) 
+{
+    #nav_bar
+    {
+        flex-direction: column;
+        padding: auto;
+    }
+}
+@media screen and (max-width: 1000px) 
+{
+    .education
+    {
+        flex-direction: column;
+    }
+}
+/* #home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+    flex-wrap: wrap;
+} */

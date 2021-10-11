@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD------------------------------------------------------------------------------------------------------------------------ -->
+<!-- HEAD------------------------------------------------------------------------------------------------------------------------ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="shortcut icon" href="https://drive.google.com/uc?export=view&id=1QIFBPRTBYoXgjbverwjxmU-uuyOfSd9N" type="image/x-icon">  
+    <title>Divit's Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<!-- BODY------------------------------------------------------------------------------------------------------------------------ -->
+<!-- BODY------------------------------------------------------------------------------------------------------------------------ -->
+
+<body onload="date_time()">
+
+<!-- NAV_BAR--------------------------------------------------------------------------------------------------------------------- -->
+
+    <nav>
+        <ul id="nav_bar">
+            <li class="navleft" onclick="show('0')">&nbsp DIVIT GUPTA &nbsp</li>
+            <li id="nav_home" class="in_line" onmouseenter="hover_entry('0')" onmouseleave="hover_leave('0')" onclick="show('0')">&nbsp HOME &nbsp</li>
+            <li id="nav_about" class="in_line" onmouseenter="hover_entry('1')" onmouseleave="hover_leave('1')" onclick="show('1')">&nbsp ABOUT &nbsp</li>
+            <li id="nav_education" class="in_line" onmouseenter="hover_entry('2')" onmouseleave="hover_leave('2')" onclick="show('2')">&nbsp EDUCATION &nbsp</li>
+            <li id="nav_achievements" class="in_line" onmouseenter="hover_entry('3')" onmouseleave="hover_leave('3')" onclick="show('3')">&nbsp ACHIEVEMENTS &nbsp</li>
+        </ul>
+    </nav>
+
+<!-- TIME---------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- <input type=text id='dt' size='70'> -->
+    <div class="hcenter-flex">
+    <div id="dt"></div>
+    </div>
+
+<!-- HOME---------------------------------------------------------------------------------------------------------------------- -->
+
+    
+    <div id="home" class="hcenter-text">
+        <img class="profile_image hcenter-block" src="https://drive.google.com/uc?export=view&id=1QdGkqI3IJWeaJ0FMaYPzHA0D7emvYQhd" alt="Divit's profile image" >
+        <br>
+        <h1>DIVIT GUPTA</h1>
+        <p class="hcenter-text">
+            Hello, I am Divit Gupta currently pursuing Masters of Technololgy from IIIT Hyderabad in Computer Science. I've completed my Bachelor's degree in Electronics and Telecommunication but computer science has always interested me a lot which has brought me here.
+        </p>
+        <!-- <img src="20201231_152058.jpg" alt="Divit's profile image" width="256" height="256"> -->
+
+        <!-- <img src="https://drive.google.com/uc?export=view&id=1QmKq05gI3SieL5RQsiWLiXEoEKTdK0pi" alt="Divit's profile image" width="256" height="256"> -->
+    </div>
+
+<!-- ABOUT--------------------------------------------------------------------------------------------------------------------- -->
+    
+    <div id="about" class="hcenter-text">
+        <h1>ABOUT</h1>
+        <hr style="max-width: 300px;">
+        <p>
+            Contact <br>
+            Email ID: <a style="color: turquoise;" href="mailto:divitgupta2000@gmail.com">divitgupta2000@gmail.com</a>
+        </p>
+        <hr style="max-width: 300px;">
+        <br>
+        <a title="Codechef" target="_blank" href="https://www.codechef.com/users/divit_gupta">
+            <img src="https://static.uacdn.net/thumbnail/external-app-icons/ce4fd2180646452aa0b03c3ffa3ef8e2.png" alt="codechef's icon" width="35px" height="35px">
+        </a>
+        &nbsp;
+        <a title="Codeforces" target="_blank" href="https://codeforces.com/profile/linear_coder">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/code-forces-3521352-2944796.png" alt="codeforces's icon" width="35px" height="35px">
+        </a>
+        &nbsp;
+        <a title="LinkedIN" target="_blank" href="https://www.linkedin.com/in/divit-gupta-889503176/">
+            <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG7.png" alt="github's icon" width="35px" height="35px">
+        </a>
+        &nbsp;
+        <a title="Github" target="_blank" href="https://github.com/divit-gupta">
+            <img style="border-radius: 50%" src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png" alt="github's icon" width="35px" height="35px">
+        </a>
+        <br><br>
+        <hr style="max-width: 300px;">
+        <h2>
+            Resume:
+            <a target="_blank" href="https://drive.google.com/uc?export=view&id=1HXMLfstrshhwgW435GwQ1xqW-7j73Dwk">
+                <img style="position: relative; top: 10px;" src="https://i1.wp.com/blackpinkupdate.com/wp-content/uploads/2018/07/download-button-2.png?fit=1073%2C340&ssl=1" alt="github's icon" width="100px" height="35px">
+            </a>
+        </h2>
+        <br><br>
+        <iframe src="https://drive.google.com/uc?export=view&id=1HXMLfstrshhwgW435GwQ1xqW-7j73Dwk" title="Divit's CV" width="80%" height="500px"></iframe>
+    </div>
+
+<!-- EDUCATION---------------------------------------------------------------------------------------------------------------- -->    
+
+    <div id="education" class="education">
+        <div class="college">
+            <h1><a style="color: rgb(255, 255, 255);" target="_blank" href="https://www.iiit.ac.in">IIIT Hyderabad</a></h1>
+            <a target="_blank" href="https://www.iiit.ac.in">
+                <img style="object-fit: cover; width: 350px; height: 170px;" src="https://scontent.fbom38-1.fna.fbcdn.net/v/t31.18172-8/12748004_10153558836593717_8278434251271038673_o.png?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=j972NsviwI8AX8VAubo&_nc_ht=scontent.fbom38-1.fna&oh=9bbd050d53349d97cb63ada68faeac44&oe=61878B7F" alt="IIITH" >
+            </a>
+            <br>
+            Pursuing M.Tech in CS(Computer Science) 
+            <table>
+                <tr>
+                    <td style="font-weight: bold;" colspan="2">Duration</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>2023</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="college">
+            <h1><a style="color: rgb(255, 255, 255);" target="_blank" href="https://www.jecjabalpur.ac.in">Jabalpur Engineering College</a></h1>
+            <a target="_blank" href="https://www.jecjabalpur.ac.in">
+                <img src="https://collegekhabri.com/data/jabalpur-engineering-college-jabalpur-logo.gif" alt="JEC Jabalpur"  width="170" height="170">
+            </a>
+            <br>
+            Graduated with B.Tech in Electronics and Telecommunication Engineering
+            <table>
+                <tr>
+                    <td style="font-weight: bold;" colspan="2">Duration</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>2021</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<!-- ACHIEVEMENTS-------------------------------------------------------------------------------------------------------------- -->
+    
+    <div id="achievements" class="hcenter-text">
+        <div>
+            <h1> Achievements:</h1>
+            <hr style="max-width: 300px;">
+            <h3>
+                <img style="object-fit: cover; width: 30px; height: 50px; position: relative; top: 13px;" src="https://ak.picdn.net/shutterstock/videos/1059977270/thumb/6.jpg" alt="trophy" width="100px" height="50px">
+                &nbsp;
+                Secured All India Rank 360 in GATE CSE 2021 among 1 Lac candidates.
+            </h3>
+            <h3>
+                <img style="object-fit: cover; width: 30px; height: 50px; position: relative; top: 13px;" src="https://ak.picdn.net/shutterstock/videos/1059977270/thumb/6.jpg" alt="trophy" width="100px" height="50px">
+                &nbsp;
+                National Level Mallakhamb championship participant.
+            </h3>
+        </div>
+    </div>
+
+<!-- BODY_REMAINING------------------------------------------------------------------------------------------------------------ -->
+    
+    <script src="scripts/script.js"></script>
+
+</body>
+<!-- BODY_END------------------------------------------------------------------------------------------------------------------ -->
+<!-- BODY_END------------------------------------------------------------------------------------------------------------------ -->
+</html>
